@@ -6,20 +6,56 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		2BFFBAEB2DE251EC00253AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BFFBA412DE2362600253AFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BFFBA482DE2362600253AFD;
+			remoteInfo = SeeFood;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		2BFFBA492DE2362600253AFD /* SeeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BFFBAE72DE251EC00253AFD /* SeeFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2BFFBAD82DE2422C00253AFD /* Exceptions for "SeeFood" folder in "SeeFood" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2BFFBA482DE2362600253AFD /* SeeFood */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2BFFBA4B2DE2362600253AFD /* SeeFood */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2BFFBAD82DE2422C00253AFD /* Exceptions for "SeeFood" folder in "SeeFood" target */,
+			);
 			path = SeeFood;
+			sourceTree = "<group>";
+		};
+		2BFFBAE82DE251EC00253AFD /* SeeFoodTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SeeFoodTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2BFFBA462DE2362600253AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BFFBAE42DE251EC00253AFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				2BFFBA4B2DE2362600253AFD /* SeeFood */,
+				2BFFBAE82DE251EC00253AFD /* SeeFoodTests */,
 				2BFFBA4A2DE2362600253AFD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				2BFFBA492DE2362600253AFD /* SeeFood.app */,
+				2BFFBAE72DE251EC00253AFD /* SeeFoodTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +108,29 @@
 			productReference = 2BFFBA492DE2362600253AFD /* SeeFood.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2BFFBAE62DE251EC00253AFD /* SeeFoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BFFBAED2DE251EC00253AFD /* Build configuration list for PBXNativeTarget "SeeFoodTests" */;
+			buildPhases = (
+				2BFFBAE32DE251EC00253AFD /* Sources */,
+				2BFFBAE42DE251EC00253AFD /* Frameworks */,
+				2BFFBAE52DE251EC00253AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BFFBAEC2DE251EC00253AFD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2BFFBAE82DE251EC00253AFD /* SeeFoodTests */,
+			);
+			name = SeeFoodTests;
+			packageProductDependencies = (
+			);
+			productName = SeeFoodTests;
+			productReference = 2BFFBAE72DE251EC00253AFD /* SeeFoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +143,10 @@
 				TargetAttributes = {
 					2BFFBA482DE2362600253AFD = {
 						CreatedOnToolsVersion = 16.3;
+					};
+					2BFFBAE62DE251EC00253AFD = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 2BFFBA482DE2362600253AFD;
 					};
 				};
 			};
@@ -100,12 +165,20 @@
 			projectRoot = "";
 			targets = (
 				2BFFBA482DE2362600253AFD /* SeeFood */,
+				2BFFBAE62DE251EC00253AFD /* SeeFoodTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2BFFBA472DE2362600253AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BFFBAE52DE251EC00253AFD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +195,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2BFFBAE32DE251EC00253AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BFFBAEC2DE251EC00253AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BFFBA482DE2362600253AFD /* SeeFood */;
+			targetProxy = 2BFFBAEB2DE251EC00253AFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2BFFBA522DE2362800253AFD /* Debug */ = {
@@ -256,6 +344,7 @@
 				DEVELOPMENT_TEAM = V89JL7G33X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeeFood/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +373,7 @@
 				DEVELOPMENT_TEAM = V89JL7G33X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeeFood/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +389,42 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BFFBAEE2DE251EC00253AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V89JL7G33X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sushobhit.SeeFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeeFood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeeFood";
+			};
+			name = Debug;
+		};
+		2BFFBAEF2DE251EC00253AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V89JL7G33X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sushobhit.SeeFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeeFood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeeFood";
 			};
 			name = Release;
 		};
@@ -319,6 +445,15 @@
 			buildConfigurations = (
 				2BFFBA552DE2362800253AFD /* Debug */,
 				2BFFBA562DE2362800253AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BFFBAED2DE251EC00253AFD /* Build configuration list for PBXNativeTarget "SeeFoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BFFBAEE2DE251EC00253AFD /* Debug */,
+				2BFFBAEF2DE251EC00253AFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>NSCameraUsageDescription</key>
+<string>SeeFood needs camera access to take photos of your food for nutritional analysis.</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>SeeFood needs photo library access to analyze food images from your gallery.</string>
+</dict>
+</plist>

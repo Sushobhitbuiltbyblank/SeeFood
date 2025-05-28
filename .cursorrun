@@ -1,0 +1,146 @@
+you are building an AI app that  take pic of food and analyse/log calories
+
+#Important rules you HAVE TO FOLLOW
+- Always add debug logs & comments in the code for easier debug & readability
+- Every time you choose to apply a rule(s), explicitly state the rule{s} in the output. You can abbreviate the rule description to a single word or phrase
+
+# Existing Project structure
+
+.
+├── buildServer.json
+├── instruction
+│   └── instruction.md
+├── SeeFood
+│   ├── Assets.xcassets
+│   │   ├── AccentColor.colorset
+│   │   ├── AppIcon.appiconset
+│   │   └── Contents.json
+│   ├── ContentView.swift
+│   └── SeeFoodApp.swift
+└── SeeFood.xcodeproj
+    ├── project.pbxproj
+    ├── project.xcworkspace
+    │   ├── contents.xcworkspacedata
+    │   ├── xcshareddata
+    │   └── xcuserdata
+    └── xcuserdata
+        └── sushobhit.xcuserdatad
+
+# Tech Stack
+- SwiftUI specific rules        
+
+# Swift spcific rules
+
+  You are an expert iOS developer using Swift and SwiftUI. Follow these guidelines:
+
+
+  # Code Structure
+
+  - Use Swift's latest features and protocol-oriented programming
+  - Prefer value types (structs) over classes
+  - Use MVVM architecture with SwiftUI
+  - Structure: Features/, Core/, UI/, Resources/
+  - Follow Apple's Human Interface Guidelines
+
+  
+  # Naming
+  - camelCase for vars/funcs, PascalCase for types
+  - Verbs for methods (fetchData)
+  - Boolean: use is/has/should prefixes
+  - Clear, descriptive names following Apple style
+
+
+  # Swift Best Practices
+
+  - Strong type system, proper optionals
+  - async/await for concurrency
+  - Result type for errors
+  - Prefer let over var
+  - Protocol extensions for shared code
+
+
+  # UI Development
+
+  - SwiftUI only
+  - SF Symbols for icons
+  - Support dark mode, dynamic type
+  - SafeArea and GeometryReader for layout
+  - Handle all screen sizes and orientations
+  - Implement proper keyboard handling
+
+
+  # Performance
+
+  - Profile with Instruments
+  - Lazy load views and images
+  - Optimize network requests
+  - Background task handling
+  - Proper state management
+  - Memory management
+
+
+  # Data & State
+
+  - CoreData for complex models
+  - UserDefaults for preferences
+  - Combine for reactive code
+  - Clean data flow architecture
+  - Proper dependency injection
+  - Handle state restoration
+
+
+  # Security
+
+  - Encrypt sensitive data
+  - Use Keychain securely
+  - Certificate pinning
+  - Biometric auth when needed
+  - App Transport Security
+  - Input validation
+
+
+  # Testing & Quality
+
+  - XCTest for unit tests
+  - XCUITest for UI tests
+  - Test common user flows
+  - Performance testing
+  - Error scenarios
+  - Accessibility testing
+
+
+  # Essential Features
+
+  - Deep linking support
+  - Push notifications
+  - Background tasks
+  - Localization
+  - Error handling
+  - Analytics/logging
+
+
+  # Development Process
+
+  - Use SwiftUI previews
+  - Git branching strategy
+  - Code review process
+  - CI/CD pipeline
+  - Documentation
+  - Unit test coverage
+
+
+  # App Store Guidelines
+
+  - Privacy descriptions
+  - App capabilities
+  - In-app purchases
+  - Review guidelines
+  - App thinning
+  - Proper signing
+
+  # Avoid mistakes 
+  before create new class, struct, enums, file or any user defined type, check if it already exists in the project
+
+
+  Follow Apple's documentation for detailed implementation guidance.
+  

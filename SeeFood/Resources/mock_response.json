@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n[\n  {\n    \"name\": \"Samosas (5 pieces)\",\n    \"calories\": 750,\n    \"protein\": 25,\n    \"carbs\": 90,\n    \"fats\": 35\n  }\n]\n```\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.042101556604558769
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 346,
+    "candidatesTokenCount": 66,
+    "totalTokenCount": 412,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 88
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 66
+      }
+    ]
+  },
+  "modelVersion": "gemini-1.5-flash",
+  "responseId": "ACs0aJndD6i3nvgP4IvSuAs"
+} 
