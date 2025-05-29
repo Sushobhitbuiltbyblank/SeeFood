@@ -2,6 +2,11 @@
 
 SeeFood is an iOS app that uses Google's Gemini AI to analyze food images and provide nutritional information. Simply take a photo of your food, and the app will identify the items and their nutritional content.
 
+## Project Demo
+The following GIF showcases the core functionality of the project:
+
+![Demo of functionality](https://raw.githubusercontent.com/Sushobhitbuiltbyblank/SeeFood/93aa253fa58c49ad7c76910c8594cbd57cb59a74/ScreenRecording_05-29-202500-00-30_111-ezgif.com-resize.gif)
+
 ## Features
 
 - 📸 Take photos of food or select from photo library
